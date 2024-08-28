@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    width: 1366px;
+    height: 2000px;
+    margin: 0 auto;
+}
+
+header {
+    width: 1366px;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(120, 198, 237);
+}
+
+nav {
+    width: 1366px;
+    height: 60px;
+    background-color: rgb(246, 221, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    transition: 1s;
+    font-family: "Kalam", cursive
+}
+
+nav a:hover {
+    background-color: rgb(129, 209, 236);
+    transform: scale(1.2);
+
+}
+
+section {
+    width: 1366px;
+    height: 1500px;
+    background-image: url(../imagenes/las\ casa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+section .personaje {
+    width: 1300px;
+    height: 350px;
+
+    margin-left: 33px;
+    margin-top: 20px;
+    float: left;
+}
+
+.personaje .imagen {
+    width: 400px;
+    height: 350px;
+
+    float: left;
+    margin-left: 33px;
+}
+
+.imagen img {
+    height: 100%;
+    text-align: center;
+    border-bottom: black 4px solid;
+}
+
+.personaje .texto {
+    width: 800px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.683);
+    float: left;
+    margin-left: 33px;
+    padding: 20px;
+    
+}
+
+footer {
+    width: 1366px;
+    height: 250px;
+    background-color: rgb(255, 238, 50);
+}
